@@ -28,10 +28,12 @@ export default function ProfileScreen() {
   const [email, setEmail] = useState(userInfo.email);
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  console.log(confirmPassword)
 
   const [{ loadingUpdate }, dispatch] = useReducer(reducer, {
     loadingUpdate: false,
   });
+  console.log(loadingUpdate)
 
   const submitHandler = async (e) => {
     e.preventDefault();
