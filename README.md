@@ -15,8 +15,7 @@
 ### 1. Clone repo
 
 ```
-$ git clone git@github.com:basir/mern-amazona.git
-$ cd mern-amazona
+$ git clone https://github.com/raushanranjan103/Mini_Project6thSem.git
 ```
 
 ### 2. Create .env File
@@ -27,7 +26,7 @@ $ cd mern-amazona
 
 - Local MongoDB
   - Install it from [here](https://www.mongodb.com/try/download/community)
-  - In .env file update MONGODB_URI=mongodb://localhost/amazona
+  - In .env file update MONGODB_URI=mongodb://localhost/keepitfit
 - OR Atlas Cloud MongoDB
   - Create database at [https://cloud.mongodb.com](https://cloud.mongodb.com)
   - In .env file update MONGODB_URI=mongodb+srv://your-db-connection
